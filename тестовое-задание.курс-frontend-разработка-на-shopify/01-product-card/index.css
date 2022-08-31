@@ -1,0 +1,214 @@
+/* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+body{
+    background-size: cover;
+    background-color: #E5E5E5;
+}
+
+.product_of_the_week{
+position: relative;
+width: 1920px;
+height: 694px;
+top: 0px;
+border-radius: 0px;
+background: #F6F6F6;
+}
+
+.title{
+position: absolute;
+width: 481px;
+height: 72px;
+left: 719.5px;
+top: 20px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 72px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.product-cards{
+width: 1180px;
+height: 482px;
+left: 370px;
+top: 152px;
+border-radius: 12px;
+}
+
+.background{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.06%;
+background: #FFFFFF;
+border-radius: 12px;
+}
+
+.product-card1{
+position: absolute;
+width: 380px;
+height: 482px;
+left: 370px;
+top: 152px;
+box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+background: #FFFFFF;
+border-radius: 12px;
+
+}
+.product-card2{
+position: absolute;
+width: 380px;
+height: 482px;
+left: 770px;
+top: 152px;
+box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+background: #FFFFFF;
+border-radius: 12px;
+}
+
+.product-card3{
+position: absolute;
+width: 380px;
+height: 482px;
+left: 1170px;
+top: 152px;
+box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+border-radius: 12px;
+background: #FFFFFF;
+border-radius: 12px;
+}
+
+.description{
+position: absolute;
+height: 48px;
+left: 24px;
+right: 24px;
+top: 289.75px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #2F2F2F;
+}
+
+.header{
+position: absolute;
+height: 36px;
+left: 24px;
+right: 24px;
+top: 237.75px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 36px;
+color: #2F2F2F;
+}
+
+.image{
+position: absolute;
+height: 213.75px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: url(image.png);
+border-radius: 12px 12px 0px 0px;
+}
+
+.active{
+position: absolute;
+height: 48px;
+width: 332px;
+left: 24px;
+top: 410px;
+border: 2px solid #42940F;
+border-radius: 8px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+background: #FFFFFF;
+color: #42940F;
+}
+
+.active:hover{
+background: #42940F;
+color: #FFFFFF;
+}
+
+.active:focus{
+    background: #1F5200;
+    color: #FFFFFF;
+    border: 2px solid #1F5200
+}
+
+.disabled{
+position: absolute;
+height: 48px;
+width: 332px;
+left: 24px;
+right: 24px;
+bottom: 24px;
+top: 410px;
+background: #4E4E4E;
+border: 1px solid #4E4E4E;
+border-radius: 8px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.tag-new{
+position: absolute;
+width: 111px;
+height: 25px;
+left: 16px;
+top: 16px;
+background: #FDCFF3;
+border-radius: 8px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+text-align: center;
+color: #2F2F2F;
+}
+
+.tag-last{
+position: absolute;
+width: 136px;
+height: 25px;
+left: 143px;
+top: 16.33px;
+background: #FFCF56;
+border-radius: 8px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+text-align: center;
+color: #2F2F2F;
+}
